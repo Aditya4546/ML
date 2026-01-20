@@ -1,5 +1,6 @@
 import os
 import sys
+import logging
 
 # Your code using os and sys functions here
 def error_message_details(error: str, error_detail) :
@@ -15,5 +16,4 @@ class CustomException(Exception):
 
     def __str__(self):
         return self.error_message
-
 
